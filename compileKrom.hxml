@@ -1,0 +1,6 @@
+-cmd node Kha/make krom
+--next
+-cmd cp -R Krom_bin//Krom.app/Contents/MacOS/Krom build/krom/krom
+--next 
+-cmd cd build/krom
+-cmd ./krom
